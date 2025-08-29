@@ -4,6 +4,8 @@ Answer:  getElementById fetches the first element that matches the given id. If 
 
 querySelector uses css selector to find elements.It returns the first value that matches the given selector. On the contrary querySelectorAll looks for all the elements that matches the given selector(id or class) and returns them as a nodelist.
 
+----------------------------------------------------------------------------------------------------------------------
+
 Question-2:  How do you create and insert a new element into the DOM?
 
 Answer:  The steps for creating and inserting a new element into the DOM are:
@@ -11,3 +13,5 @@ Answer:  The steps for creating and inserting a new element into the DOM are:
 2) Add content(text or attributes) to the new element. For this we can use newDiv.innerText= "Hi there"
 3) Insert the element into a DOM element using appendChild or other methods. For example, const parent=document.getElementById('container');
    parent.appendChild('newDiv')
+
+----------------------------------------------------------------------------------------------------------------------
