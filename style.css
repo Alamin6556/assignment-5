@@ -112,7 +112,7 @@ nav {
   );
 }
 /* -------------card section-------------- */
-#heart-icon {
+.heart-icon {
   font-size: 24px;
 }
 .card-image {
@@ -235,7 +235,7 @@ nav {
   border-radius: 50px;
   font-size: 16px;
   font-weight: 400;
-  padding: 16px 36px;
+  padding: 16px 28px;
 }
 .history-top {
   display: flex;
@@ -254,7 +254,7 @@ nav {
   gap: 30px;
 
   margin: 48px auto;
-  padding: 0 48px;
+  padding: 0 24px;
 }
 .card-section {
   display: grid;
@@ -263,5 +263,4 @@ nav {
 }
 
 @media screen and (maxwidth: 576px) {
-  
 }
