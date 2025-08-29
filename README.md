@@ -15,3 +15,14 @@ Answer:  The steps for creating and inserting a new element into the DOM are:
    parent.appendChild('newDiv')
 
 ----------------------------------------------------------------------------------------------------------------------
+Question-3:  What is Event Bubbling and how does it work ?
+
+Answer:  Event bubbling is the process where an event starts from the innermost element that triggered it and then moves upward through its parent elements. For example, if a button inside a div is clicked, the click event first runs on the button, then on the div, and continues up until it reaches the document.
+
+----------------------------------------------------------------------------------------------------------------------
+
+Question-4:  What is Event Delegation in JavaScript? Why is it useful?
+
+Answer:  Event delegation is a technique where a single event listener is attached to a parent element to handle events for its child elements. Instead of adding listeners to every child, the event bubbles up to the parent, and the parent checks which child triggered it.
+
+benefit:  It improves performance by reducing the number of event listeners, makes the code cleaner, and works well for dynamically added elements.
